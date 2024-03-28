@@ -106,9 +106,11 @@ EOF
 		AddPackage themes thinktip luci-theme-neobird main
 		AddPackage msd_lite ximiTech luci-app-msd_lite main
 		AddPackage msd_lite ximiTech msd_lite main
-		rm -r ${WORK}/package/other/helloworld/mosdns
-		rm -r ${FEEDS_PKG}/mosdns
-		rm -r ${FEEDS_LUCI}/luci-app-mosdns
+		AddPackage passwall xiaorouji openwrt-passwall-packages main
+		AddPackage passwall xiaorouji openwrt-passwall main
+		# rm -r ${WORK}/package/other/helloworld/mosdns
+		# rm -r ${FEEDS_PKG}/mosdns
+		# rm -r ${FEEDS_LUCI}/luci-app-mosdns
 		rm -r ${FEEDS_PKG}/curl
 		rm -r ${FEEDS_PKG}/msd_lite
 		Copy ${CustomFiles}/curl ${FEEDS_PKG}
