@@ -26,8 +26,8 @@ CONFIG_PACKAGE_kmod-mt76=y
 # USB 相关
 CONFIG_PACKAGE_automount=y
 CONFIG_PACKAGE_smartmontools=y
-CONFIG_PACKAGE_luci-app-hd-idle=y
-CONFIG_PACKAGE_luci-app-usb-printer=y
+# CONFIG_PACKAGE_luci-app-hd-idle is not set
+# CONFIG_PACKAGE_luci-app-usb-printer is not set
 
 ## USB 网络共享
 CONFIG_PACKAGE_kmod-usb-net=y
@@ -44,8 +44,8 @@ CONFIG_PACKAGE_usbutils=y
 ## USB 网络存储
 # CONFIG_PACKAGE_autosamba is not set
 # CONFIG_PACKAGE_luci-app-samba4 is not set
-CONFIG_PACKAGE_luci-app-samba=y
-CONFIG_PACKAGE_luci-app-vsftpd=y
+# CONFIG_PACKAGE_luci-app-samba is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
 
 # LUCI Appliciations
 CONFIG_PACKAGE_luci-app-accesscontrol=y
@@ -59,7 +59,7 @@ CONFIG_PACKAGE_luci-app-ddns=y
 CONFIG_PACKAGE_ddns-scripts_aliyun=y
 # CONFIG_PACKAGE_ddns-scripts_dnspod is not set
 # CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4 is not set
-CONFIG_PACKAGE_ddns-scripts_no-ip_com=y
+# CONFIG_PACKAGE_ddns-scripts_no-ip_com is not set
 CONFIG_PACKAGE_luci-app-eqos=y
 CONFIG_PACKAGE_luci-app-filetransfer=y
 # CONFIG_PACKAGE_luci-app-frpc is not set
@@ -69,7 +69,7 @@ CONFIG_PACKAGE_luci-app-iperf3-server=y
 # CONFIG_PACKAGE_luci-app-mwan3 is not set
 # CONFIG_PACKAGE_luci-app-mwan3helper is not set
 CONFIG_PACKAGE_luci-app-nlbwmon=y
-CONFIG_PACKAGE_luci-app-natter2=y
+# CONFIG_PACKAGE_luci-app-natter2 is not set
 CONFIG_PACKAGE_luci-app-onliner=y
 CONFIG_PACKAGE_luci-app-pptp-server=y
 # CONFIG_PACKAGE_luci-app-rclone is not set
@@ -80,13 +80,13 @@ CONFIG_PACKAGE_luci-app-pptp-server=y
 CONFIG_PACKAGE_luci-app-sqm=y
 CONFIG_PACKAGE_luci-app-syncdial=y
 # CONFIG_PACKAGE_luci-app-smartdns is not set
-# CONFIG_PACKAGE_luci-app-socat is not set
+CONFIG_PACKAGE_luci-app-socat=y
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-turboacc=y
 CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_OFFLOADING=y
 # CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE is not set
 # CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE_CM is not set
-CONFIG_PACKAGE_luci-app-udpxy=y
+# CONFIG_PACKAGE_luci-app-udpxy is not set
 CONFIG_PACKAGE_luci-app-uhttpd=y
 CONFIG_PACKAGE_luci-app-upnp=y
 # CONFIG_PACKAGE_luci-app-unblockmusic is not set
